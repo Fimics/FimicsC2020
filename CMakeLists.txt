@@ -60,8 +60,8 @@ add_executable(FimicsC2020
 #        src/c/struct/TypeDefDemo.c
 #        src/c/struct/UnionAndEnum.c
 
-        src/c/file/Constant.h
-        src/c/file/Constant.c
+#        src/c/file/Constant.h
+#        src/c/file/Constant.c
 #        src/c/file/FileOpen.c
 #        src/c/file/FPutc.c
 #        src/c/file/FGetc.c
@@ -71,8 +71,58 @@ add_executable(FimicsC2020
 #        src/c/file/FwriteFread.c
 #        src/c/file/FileCopy.c
 #        src/c/file/RandFile.c
-
 #        src/c/file/FileStat.c
 #        src/c/file/FileBuffer.c
 
+#        src/c/advance/TypedefDemo.c
+#        src/c/advance/XVoid.c
+#        src/c/advance/XSizeof.c
+#        src/c/advance/XVarModify.c
+#        src/c/advance/XStack.c
+#        src/c/advance/XMalloc.c
+#        src/c/advance/XStaticExtern.c
+#        src/c/advance/XExternTest.c
+#        src/c/advance/XConst.c
+#        src/c/advance/XDefine.c
+#        src/c/advance/XVarPass.c
+#        src/c/advance/XStackGrowth.c
+#        src/c/advance/pointer/XPointerNull.c
+#        src/c/advance/pointer/XPointerStep.c
+#        src/c/advance/pointer/XPointerValue.c
+#        src/c/advance/pointer/XpointerParams.c
+#        src/c/advance/pointer/XPointerString.c
+#        src/c/advance/XSprintf.c
+#        src/c/advance/XRealloc.c
+#        src/c/advance/XSscanf.c
+#        src/c/advance/XSubString.c
+#        src/c/advance/pointer/XPointerEasyError.c
+#        src/c/advance/XConst1.c
+#        src/c/advance/pointer/XPointerTwoAsInputParams.c
+#        src/c/advance/pointer/XPointerTwoAsOutputParams.c
+#        src/c/advance/pointer/XPointerTwoForFile.c
+#        src/c/advance/XBitOperation.c
+#        src/c/advance/array/ArrayOne.c
+#        src/c/advance/array/ArrayPointerDefine.c
+#        src/c/advance/array/ArrayTwoName.c
+#        src/c/advance/array/PointerArraySort.c
+#        src/c/advance/struct/StructUse.c
+#        src/c/advance/struct/StructCopy.c
+#        src/c/advance/struct/StructPointer.c
+#        src/c/advance/struct/StructTwoPointer.c
+#        src/c/advance/struct/StructOffet.c
+#        src/c/advance/struct/MemoryAlign.c
+#        src/c/advance/file/FileRW.c
+#        src/c/advance/file/FileRW2.c
+#        src/c/advance/file/FileConfig.c
+
+#        src/c/advance/linkedlist/LinkedListStatic.cpp
+#        src/c/advance/linkedlist/LinkedList2.c
+#        src/c/advance/linkedlist/LinkedListFun.c
+#        src/c/advance/fun/FunPointer.c
+#        src/c/advance/fun/FunPointerAsParams.c
+#        src/c/advance/fun/FunCallBack.c
+#        src/cpp/basic/XCout.cpp
+
+        src/cpp/basic/CoionsScope.cpp
+        src/cpp/basic/namespace/XNameSpace.c
         )
