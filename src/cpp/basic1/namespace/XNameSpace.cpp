@@ -1,3 +1,6 @@
+//
+// Created by mac on 2021/6/27.
+//
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<iostream>
@@ -15,14 +18,14 @@ void test01()
 
 //2、命名空间下 可以放  变量、函数、结构体、类...
 namespace A
-        {
-                int m_A;
-                void func();
-                struct Person
-                {};
-                class Animal
-                {};
-        }
+{
+    int m_A;
+    void func();
+    struct Person
+    {};
+    class Animal
+    {};
+}
 
 //3、命名空间 必须要声明在全局作用域下
 void test02()
@@ -32,13 +35,13 @@ void test02()
 
 //4、命名空间可以嵌套命名空间
 namespace B
-        {
-                int m_A = 10;
-                namespace C
-                {
-                    int m_A = 20;
-                }
-        }
+{
+    int m_A = 10;
+    namespace C
+    {
+        int m_A = 20;
+    }
+}
 void test03()
 {
     cout << "B空间下的m_A = " << B::m_A << endl;
@@ -47,9 +50,9 @@ void test03()
 
 //5、命名空间是开放的，可以随时给命名空间添加新的成员
 namespace B
-        {
-                int m_B = 100;
-        }
+{
+    int m_B = 100;
+}
 void test04()
 {
     cout << "B空间下的m_A = " << B::m_A << endl;
@@ -59,9 +62,9 @@ void test04()
 //6、命名空间可以是匿名的
 namespace
 {
-int m_C = 1000;
-int m_D = 2000;
-//当写的命名空间的匿名的，相当于写了  static int m_C = 1000; static int m_D = 2000;
+    int m_C = 1000;
+    int m_D = 2000;
+    //当写的命名空间的匿名的，相当于写了  static int m_C = 1000; static int m_D = 2000;
 }
 
 void test05()
@@ -72,13 +75,13 @@ void test05()
 
 //7、命名空间可以起别名
 namespace veryLongName
-        {
-                int m_E = 10000;
-                void func()
-                {
-                    cout << "aaa" << endl;
-                }
-        }
+{
+    int m_E = 10000;
+    void func()
+    {
+        cout << "aaa" << endl;
+    }
+}
 
 
 

@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.19)
 project(FimicsC2020)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 11)
 
 add_executable(FimicsC2020
 #        main.cpp
@@ -121,8 +121,12 @@ add_executable(FimicsC2020
 #        src/c/advance/fun/FunPointer.c
 #        src/c/advance/fun/FunPointerAsParams.c
 #        src/c/advance/fun/FunCallBack.c
-#        src/cpp/basic/XCout.cpp
+#        src/cpp/basic1/XCout.cpp
 
-        src/cpp/basic/CoionsScope.cpp
-        src/cpp/basic/namespace/XNameSpace.c
-        )
+#        src/cpp/basic1/CoionsScope.cpp
+#        src/cpp/basic1/namespace/XNameSpace.cpp
+#        src/cpp/basic1/XUsing.cpp
+#        src/cpp/basic1/StrengthenC.cpp
+#        src/cpp/basic1/const/test.c
+#        src/cpp/basic1/const/XConst.cpp
+        src/cpp/basic1/XRefcpp src/cpp/basic1/PassValue.cpp src/cpp/basic1/PointerRef.cpp src/cpp/basic1/ConstRef.cpp)
