@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.19)
 project(FimicsC2020)
+project(FimicsQT)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -224,7 +225,9 @@ add_executable(FimicsC2020
 #        src/stl/Sort16.cpp
 #        src/stl/ReplaceAndCopy17.cpp
 #        src/stl/Numeric18.cpp
-#        src/stl/Collections.cpp
+        src/stl/Collections.cpp
+        )
 
+add_executable(FimicsQT
 
         )
