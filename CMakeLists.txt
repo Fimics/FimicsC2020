@@ -204,4 +204,27 @@ add_executable(FimicsC2020
 #        src/cpp/expection9/StreamInput.cpp
 #        src/cpp/expection9/StreamOutput.cpp
 #        src/cpp/expection9/StreamFile.cpp
+#stl
+#        src/stl/Basic1.cpp
+#        src/stl/String2.cpp
+#        src/stl/Vector3.cpp
+#        src/stl/Deque5.cpp
+#        src/stl/Stack4.cpp
+#        src/stl/Queue6.cpp
+#        src/stl/List7.cpp
+#        src/stl/Set8.cpp
+#        src/stl/Map9.cpp
+#        src/stl/Group10.cpp
+#        src/stl/FunctionObject11.cpp
+#        src/stl/Lambda12.cpp
+#        src/stl/Functional13.cpp
+#        src/stl/Adapter14.cpp
+#        src/stl/Iterator15.cpp
+#        src/stl/Find16.cpp
+#        src/stl/Sort16.cpp
+#        src/stl/ReplaceAndCopy17.cpp
+#        src/stl/Numeric18.cpp
+#        src/stl/Collections.cpp
+
+
         )
